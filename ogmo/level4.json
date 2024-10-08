@@ -1,0 +1,102 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 96,
+  "height": 96,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "background",
+      "_eid": "90740106",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "tileset": "tiles",
+      "data": [36, -1, 36, -1, -1, 48, 49, 36, 32, -1, -1, 47, -1, -1, 48, -1, -1, 54, -1, 40, 41, 50, 51, 54, -1, -1, 30, 55, -1, 32, 36, 46, 47, 56, 57, 54, 42, 48, 49, 42, 43, -1, 42, 54, 40, 41, 31, 43, -1, 54, 55, -1, -1, -1, -1, -1, 46, 47, 43, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 11, -1, -1, 0, 10, 18, 19, -1, 10, 4, 4, 10, 5, 6, 7, 7, 8, 24, 25, 24, 6, 7, 7, 7, 8, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "exportMode": 0,
+      "arrayMode": 0
+    },
+    {
+      "name": "collision",
+      "_eid": "90834160",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": [
+        {"name": "platform", "id": 0, "_eid": "00821873", "x": 0, "y": 56, "width": 32, "height": 8, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 1, "_eid": "00821873", "x": -8, "y": 0, "width": 8, "height": 72, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 2, "_eid": "00821873", "x": 96, "y": 0, "width": 8, "height": 72, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 3, "_eid": "00821873", "x": 56, "y": 56, "width": 48, "height": 8, "originX": 0, "originY": 0}
+      ]
+    },
+    {
+      "name": "entities",
+      "_eid": "91100429",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": [
+        {"name": "player", "id": 1, "_eid": "00826236", "x": 0, "y": 48, "originX": 0, "originY": 0},
+        {"name": "door", "id": 5, "_eid": "16787493", "x": 88, "y": 24, "width": 8, "height": 32, "originX": 0, "originY": 0},
+        {"name": "corn_item", "id": 7, "_eid": "23636894", "x": 40, "y": 40, "width": 8, "height": 8, "originX": 0, "originY": 0},
+        {"name": "apple_item", "id": 8, "_eid": "23637093", "x": 72, "y": 48, "width": 8, "height": 8, "originX": 0, "originY": 0},
+        {"name": "hurt", "id": 9, "_eid": "16789493", "x": 24, "y": 64, "width": 40, "height": 8, "originX": 0, "originY": 0}
+      ]
+    },
+    {
+      "name": "reversers",
+      "_eid": "00931962",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": []
+    },
+    {
+      "name": "hud",
+      "_eid": "22343695",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": []
+    },
+    {
+      "name": "texts",
+      "_eid": "25028916",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": [
+        {
+          "name": "text",
+          "id": 0,
+          "_eid": "24969758",
+          "x": 8,
+          "y": 80,
+          "width": 8,
+          "height": 8,
+          "originX": 0,
+          "originY": 0,
+          "values": {"text": "Press 'C' to Switch", "name": "switch"}
+        }
+      ]
+    }
+  ]
+}

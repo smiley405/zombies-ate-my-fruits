@@ -1,0 +1,41 @@
+{
+  "name": "zombies-ate-my-fruits",
+  "version": "1.0.0",
+  "description": "Entry for ludumdare 56",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "yarn ogmo && node esbuild.serve.js",
+    "build:low": "yarn ogmo && node esbuild.build.js",
+    "build:max": "yarn ogmo && node roller.build.js",
+    "ogmo": "node ogmo.build.js",
+    "debug-ogmo": "node --inspect-brk ogmo.build.js"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/smiley405/zombies-ate-my-fruits.git"
+  },
+  "author": "smiley405",
+  "license": "MIT",
+  "bugs": {
+   	  "url": "git+https://github.com/smiley405/zombies-ate-my-fruits/issues"
+  },
+  "homepage": "https://github.com/smiley405/zombies-ate-my-fruits#readme",
+  "devDependencies": {
+    "esbuild": "^0.23.1",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-node": "^0.3.9",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^50.2.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.3",
+    "zip-a-folder": "^3.1.7"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "html-minifier-terser": "^7.2.0",
+    "roadroller": "^2.1.0",
+    "shelljs": "^0.8.5"
+  }
+}

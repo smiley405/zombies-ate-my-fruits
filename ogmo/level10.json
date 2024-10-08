@@ -1,0 +1,202 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 96,
+  "height": 96,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "background",
+      "_eid": "90740106",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "tileset": "tiles",
+      "data": [32, -1, -1, -1, 38, 39, 32, 39, -1, -1, 40, 31, -1, -1, -1, -1, -1, -1, -1, 45, 50, 51, 40, 43, 42, 43, 42, 43, 32, -1, -1, -1, 56, 57, 46, 40, -1, -1, -1, -1, -1, 44, 32, -1, 42, 43, 31, 32, 7, 7, 7, 8, -1, -1, -1, 36, 37, -1, 46, 43, 22, 20, 21, 22, -1, -1, -1, 42, 43, -1, -1, -1, 21, 20, 12, 26, 7, 8, -1, -1, -1, -1, -1, -1, 20, 20, -1, -1, 21, 22, -1, -1, -1, -1, -1, -1, 21, 20, -1, -1, 14, 21, 7, 8, -1, -1, -1, -1, 21, 22, -1, 9, -1, -1, -1, -1, -1, -1, -1, -1, 21, 20, 16, 15, 0, 1, 1, 10, 10, 3, 16, 4, 13, 14, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+      "exportMode": 0,
+      "arrayMode": 0
+    },
+    {
+      "name": "collision",
+      "_eid": "90834160",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": [
+        {"name": "platform", "id": 0, "_eid": "00821873", "x": -8, "y": 32, "width": 40, "height": 24, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 1, "_eid": "00821873", "x": -8, "y": -32, "width": 8, "height": 72, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 5, "_eid": "00821873", "x": 32, "y": 64, "width": 32, "height": 8, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 6, "_eid": "00821873", "x": 104, "y": -24, "width": 8, "height": 120, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 7, "_eid": "00821873", "x": 0, "y": 48, "width": 16, "height": 48, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 8, "_eid": "00821873", "x": 32, "y": 48, "width": 16, "height": 24, "originX": 0, "originY": 0},
+        {"name": "platform", "id": 10, "_eid": "00821873", "x": 0, "y": 88, "width": 112, "height": 8, "originX": 0, "originY": 0}
+      ]
+    },
+    {
+      "name": "entities",
+      "_eid": "91100429",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": [
+        {"name": "door", "id": 5, "_eid": "16787493", "x": 96, "y": 24, "width": 8, "height": 64, "originX": 0, "originY": 0},
+        {"name": "player", "id": 10, "_eid": "00826236", "x": 0, "y": 24, "originX": 0, "originY": 0},
+        {
+          "name": "triggerEnemy",
+          "id": 14,
+          "_eid": "00911971",
+          "x": 48,
+          "y": 8,
+          "width": 8,
+          "height": 40,
+          "originX": 0,
+          "originY": 0,
+          "nodes": [
+            {"x": 16, "y": 24}
+          ]
+        },
+        {
+          "name": "enemy_ryan",
+          "id": 15,
+          "_eid": "00841782",
+          "x": 16,
+          "y": 24,
+          "originX": 0,
+          "originY": 0,
+          "values": {"flipH": 1, "state": "rise", "triggered": true}
+        },
+        {
+          "name": "triggerEnemy",
+          "id": 16,
+          "_eid": "00911971",
+          "x": 64,
+          "y": 24,
+          "width": 8,
+          "height": 40,
+          "originX": 0,
+          "originY": 0,
+          "nodes": [
+            {"x": 40, "y": 40},
+            {"x": 32, "y": 40}
+          ]
+        },
+        {
+          "name": "enemy_thor",
+          "id": 17,
+          "_eid": "00849597",
+          "x": 32,
+          "y": 40,
+          "originX": 0,
+          "originY": 0,
+          "values": {"flipH": 1, "state": "rise", "triggered": true}
+        },
+        {
+          "name": "triggerEnemy",
+          "id": 19,
+          "_eid": "00911971",
+          "x": 72,
+          "y": 40,
+          "width": 8,
+          "height": 48,
+          "originX": 0,
+          "originY": 0,
+          "nodes": [
+            {"x": 48, "y": 56},
+            {"x": 80, "y": 80}
+          ]
+        },
+        {
+          "name": "enemy_mojo",
+          "id": 20,
+          "_eid": "00840901",
+          "x": 48,
+          "y": 56,
+          "originX": 0,
+          "originY": 0,
+          "values": {"flipH": 1, "state": "rise", "triggered": true}
+        },
+        {
+          "name": "triggerEnemy",
+          "id": 21,
+          "_eid": "00911971",
+          "x": 40,
+          "y": 72,
+          "width": 8,
+          "height": 16,
+          "originX": 0,
+          "originY": 0,
+          "nodes": [
+            {"x": 64, "y": 80}
+          ]
+        },
+        {
+          "name": "enemy_thor",
+          "id": 22,
+          "_eid": "00849597",
+          "x": 64,
+          "y": 80,
+          "originX": 0,
+          "originY": 0,
+          "values": {"flipH": 1, "state": "rise", "triggered": true}
+        },
+        {"name": "corn_item", "id": 25, "_eid": "23636894", "x": 32, "y": 80, "width": 8, "height": 8, "originX": 0, "originY": 0},
+        {"name": "apple_item", "id": 27, "_eid": "23637093", "x": 16, "y": 64, "width": 8, "height": 8, "originX": 0, "originY": 0},
+        {
+          "name": "enemy_ryan",
+          "id": 28,
+          "_eid": "00841782",
+          "x": 80,
+          "y": 80,
+          "originX": 0,
+          "originY": 0,
+          "values": {"flipH": 1, "state": "rise", "triggered": true}
+        }
+      ]
+    },
+    {
+      "name": "reversers",
+      "_eid": "00931962",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": [
+        {"name": "reverser", "id": 0, "_eid": "15100567", "x": 88, "y": 80, "height": 8, "originX": 0, "originY": 0},
+        {"name": "reverser", "id": 1, "_eid": "15100567", "x": 16, "y": 80, "height": 8, "originX": 0, "originY": 0}
+      ]
+    },
+    {
+      "name": "hud",
+      "_eid": "22343695",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": []
+    },
+    {
+      "name": "texts",
+      "_eid": "25028916",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 12,
+      "gridCellsY": 12,
+      "entities": []
+    }
+  ]
+}
